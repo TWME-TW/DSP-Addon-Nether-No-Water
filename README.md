@@ -1,4 +1,4 @@
-# DSP Addon Nether No Water
+# DSP Addon: Nether No Water
 
 An add-on for DebugStickPro that prevents players from changing Waterlogged data in the Nether.
 
@@ -11,4 +11,5 @@ An add-on for DebugStickPro that prevents players from changing Waterlogged data
 5. Enjoy!
 
 ## Permissions
- - `nethernowater.bypass` - Allows players to bypass the plugin's restrictions.
+ - `dspaddonnethernowater.bypass.<world name>` - Allow player to changes waterlogged in this world.
+ - `dspaddonnethernowater.bypass.*` - Allow player to changes waterlogged in all world.
