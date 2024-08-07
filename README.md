@@ -2,6 +2,8 @@
 
 An add-on for DebugStickPro that prevents players from changing Waterlogged data in the Nether.
 
+## Requirements
+ - DebugStickPro 0.4.9 or later
 ## Installation
 
 1. Download the latest version of DebugStickPro from [SpigotMC](https://www.spigotmc.org/resources/debug-stick-pro.115670/).
