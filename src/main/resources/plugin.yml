@@ -1,0 +1,15 @@
+name: DSP-Addon-Nether-No-Water
+version: '${project.version}'
+main: dev.twme.dspaddonnethernowater.DSP_Addon_Nether_No_Water
+api-version: '1.19'
+author: TWME-TW
+description: "DSP Addon: Stop Waterlogged changes when player is in nether"
+depend:
+  - DebugStickPro
+permissions:
+  dspaddonnethernowater.pass.worldname:
+    description: "Allow player to changes waterlogged in this world"
+    default: false
+  dspaddonnethernowater.pass.*:
+    description: "Allow player to changes waterlogged in all world"
+    default: false
