@@ -7,9 +7,9 @@ description: "DebugStickPro Addon: Stop Waterlogged changes when player is in ne
 depend:
   - DebugStickPro
 permissions:
-  dspaddonnethernowater.pass.worldname:
+  dspaddonnethernowater.bypass.worldname:
     description: "Allow player to changes waterlogged in this world"
     default: false
-  dspaddonnethernowater.pass.*:
+  dspaddonnethernowater.bypass.*:
     description: "Allow player to changes waterlogged in all world"
     default: false

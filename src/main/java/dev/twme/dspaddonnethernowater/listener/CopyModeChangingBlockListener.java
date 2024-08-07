@@ -23,11 +23,11 @@ public class CopyModeChangingBlockListener implements Listener {
             return;
         }
 
-        if (player.hasPermission("dspaddonnethernowater.pass" + world.getName())) {
+        if (player.hasPermission("dspaddonnethernowater.bypass" + world.getName())) {
             return;
         }
 
-        if (player.hasPermission("dspaddonnethernowater.pass.*")) {
+        if (player.hasPermission("dspaddonnethernowater.bypass.*")) {
             return;
         }
 
